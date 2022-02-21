@@ -123,7 +123,7 @@ jobs:
       with:
         fetch-depth: 0
     - name: Scan
-      uses: NazmiAltun/dotnet-parallel-sonar-scan@v1.0.0
+      uses: NazmiAltun/dotnet-parallel-sonar-scan@v1.1.0
       with:
         sonar-token: ${{ secrets.SONAR_TOKEN }}
         test-result-artifacts: unit-test-results,integration-test-results
