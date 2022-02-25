@@ -127,6 +127,7 @@ jobs:
       with:
         sonar-token: ${{ secrets.SONAR_TOKEN }}
         test-result-artifacts: unit-test-results,integration-test-results
+        verbose: 'true'
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
